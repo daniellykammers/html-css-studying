@@ -1,0 +1,223 @@
+/* ------------------------------------
+-------------MOBILE VERSION------------
+---------------------------------------*/
+
+/* --------------------------------
+-->     GENERAL SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    color: #f4f4f4;
+    background: #454545;
+}
+
+body,
+iinput,
+button,
+textarea {
+    font: 400 18px "Roboto", sans-serif;
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #dadada;
+}
+
+/* --------------------------------
+-->          HEADER */
+
+#header img {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#header .title {
+    padding: 15px 15%;
+    font-size: 28pt;
+}
+
+#header .subtitle {
+    max-width: 320px;
+    margin: -10px auto -5px auto;
+
+    font-size: 20px;
+}
+
+/* --------------------------------
+--> SECOND SECTION - EXAMPLES */
+
+#examples .product-example {
+    padding: 15px;
+}
+
+#examples .product-example img {
+    border: 10px solid #6f6f6f;
+}
+
+#examples .product-example .title {
+    font-size: 26px;
+    padding: 10px;
+}
+
+/* --------------------------------
+--> THIRD SECTION - DUNNO */
+
+#third-section {
+    color: #f4f4f4;
+    background: #6f6f6f;
+}
+
+#third-section img {
+    margin-top: 20px;
+    max-width: 90%;
+    border-radius: 50%;
+    border: 15px solid #3b3b3b;
+}
+
+#third-section .title {
+    padding: 15px 12%;
+    font-size: 30pt;
+}
+
+#third-section p {
+    padding: 15px;
+}
+
+#third-section p:last-child {
+    padding-bottom: 40px;
+}
+
+/* --------------------------------
+-->       FOOTER */
+
+#footer h1 {
+    padding: 40px 0;
+    text-transform: uppercase;
+    font-size: 24pt;
+}
+
+/* ------------------------------------
+-------------DESKTOP VERSION-----------
+---------------------------------------*/
+@media only screen and (min-width : 786px) {
+/* --------------------------------
+-->          HEADER */
+
+#header img {
+    margin-top: 0;
+}
+
+#header #header-text {
+    margin: 0;
+    position: absolute;
+        
+    background-color: rgba(37, 37, 37, 0.61);
+}
+
+#header .title {
+    padding: 50px 0 15px 0;
+    font-size: 50pt;
+
+    color: #dcf6ff;
+}
+
+#header .subtitle {
+    max-width: 768px;
+    margin: -10px auto -5px auto;
+    padding-bottom: 25px;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    color: #9be6ff;
+}
+
+/* --------------------------------
+--> SECOND SECTION - EXAMPLES */
+
+#examples {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 20px auto;
+}
+
+#examples .product-example {
+    width: 25%;
+    padding: 40px 15px;
+}
+
+#examples .product-example .title {
+    font-size: 26px;
+    padding: 10px;
+}
+
+#examples .product-example .subtitle {
+    max-width: 95%;
+    margin: auto;
+}
+
+/* --------------------------------
+--> THIRD SECTION - DUNNO */
+#third-section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 10px;
+}
+
+#third-section img {
+    margin-top: 0;
+    max-width: 28%;
+
+    border: 20px solid #3b3b3b;
+}
+
+#third-section-text {
+    display: block;
+    text-align: left;
+
+    padding: 20px;
+    max-width: 55%;
+
+    margin-left: 15px;
+}
+
+#third-section .title {
+    padding: 20px;
+    margin-bottom: -15px;
+}
+
+#third-section p:last-child {
+    padding-bottom: 40px;
+}
+
+}
+
+/* ------------------------------------
+-----------AUXILIARY CLASSES-----------
+---------------------------------------*/
+
+.italic {
+    font-style: italic;
+}
+
+.strong {
+    font-weight: 700;
+}
